@@ -36,7 +36,7 @@ items.forEach((item) => {
             scrollTrigger: {
                 trigger:  item,
                 start: 'top center',
-                markers: true,
+                // markers: true,
                 onEnter: () => item.classList.add('is-active'),
                 onLeaveBack: () => item.classList.remove('is-active'),
             }
