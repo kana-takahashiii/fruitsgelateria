@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits Geratelia</title>
+    <meta name="description" content="イタリアの伝統と革新が融合した独自の製法で仕上げた自慢のジェラート。
+    「極上のなめらかさ」への追求。自分へのご褒美としていかかでしょうか。">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="page-header">
+        <h1 class="site-title"><a href="./">Fruits Gelateria</a></h1>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#menu">Menu</a></li>
+                    <li class="nav-item"><a href="#news">News</a></li>
+                    <li class="nav-item"><a href="#access">Access</a></li>
+                </ul>
+            </nav>
+            
+        <!-- バーガーボタン -->
+        <div class="burger-btn">
+            <span class="bar bar_top"></span>
+            <span class="bar bar_middle"></span>
+            <span class="bar bar_bottom"></span>
+        </div>
+        <!-- // バーガーボタン -->
+    </header>
+    <!-- // header -->
+
+<!-- main -->
+    <main>
+        <div class="kv-wrapper">
+            <!-- video -->
+            <div class="mv">
+                <video src="images/kv-video.mp4" loop autoplay muted></video>
+                <!-- <video src="images/kv-video.mp4" controls preload="none" poster="/images/main-visual.jpg"></video> -->
+
+
+                <!-- スクロールダウン　丸 -->
+                <div class="maru">
+                    <div class="scroll-wrap">
+                        <a href="#about"><span></span>Scroll</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            </div>
+            <div class="main-visual" id="js-main-visual"></div>
+                <!-- <p class="main-copy">旬なフルーツで飾る、<br>至福のひととき</p> -->
+
+
+
+            <!-- オリジナルーScrolldown -->
+            <!-- <div class="scroll">
+                <a href="#about">Scroll</a>
+                <div class="line">
+                    <span></span>
+                </div>
+            </div> -->
+            <!-- //Scrolldown -->
+
+        </div>
+
+        <!-- about -->
+        <div class="js-trigger">
+            <section class="section-wrapper" id="about">
+                <h2 class="section-title">About</h2>
+
+                <!-- About全体ｗrapper -->
+                <!-- <div class="section-inner"> -->
+                    <!-- 画像とテキストwrapper -->
+                <div class="section-img-text">
+                    <div class="about-img">
+                        <img src="./images/about1.jpg" alt="ジェラートサンプル1">
+                    </div>
+                    <div class="text-wrapper">
+                        <h3 class="subheading">
+                            ジェラートについて
+                        </h3>
+                        <p class="section-text">
+                            ジェラートの美味しさは、一度食べたらきっとわかっていただけるでしょう。一番の特徴は、その“食感”。
+                            イタリアの伝統と革新が融合した独自の製法で仕上げる
+                            「極上のなめらかさ」への追求を日々続けてきました。
+                            口に入れれば、舌の上でしっとりととろけて優しく香りが
+                            広がり、気づいた時にはほのかに余韻を残しつつフワッと消えていく…。
+                            食べた瞬間は濃厚なのに、サラッと喉を通り過ぎていく
+                            サッパリとした食感は、他では決して味わえません。
+                        </p>
+                    </div>
+                </div>
+
+                    <div class="section-img-text-reverse">
+                        <div class="about-img">
+                            <img src="./images/about2-dt-min.png" alt="ジェラートサンプル2">
+                        </div>
+                        <div class="text-wrapper">
+                            <h3 class="subheading">
+                                ジェラートの本領
+                            </h3>
+                            <p class="section-text">
+                                ジェラート・アイスクリームとはもともと、イタリアの家庭で作られていました。
+                                イタリアでは、家庭農園などでとれた果物や野菜などをそのまま使ってジェラートを作ります。
+                                Gelateria MAKOではそんな本場イタリアン・ジェラート・アイスクリームを日本人の繊細な
+                                味覚に合わせ、食べやすくアレンジしたジェラートがいっぱい。本場の食感をよりわかりやすく表現する、
+                                新しい美味しさにこだわったジェラート・アイスクリームたちがまるで宝石のようにショーケースに佇みます。
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="section-img-text">
+                        <div class="about-img">
+                            <img src="./images/about3.jpg" alt="素材を持つ手">
+                        </div>
+                        <div class="text-wrapper">
+                            <h3 class="subheading">
+                                代表メッセージ
+                            </h3>
+                            <p class="section-text">
+                                イタリアの片田舎で偶然食べたジェラートの味が忘れられないー
+                                あの味、旨味、食感、その時の全てを再現して見せたい。
+                                気がついたら修行に行く準備をしていました。ミラノ、ヴェネツィア、トリノ、ローマ、ナポリ..
+                                素材選びからこだわって各地の味を再現しています。ショップの雰囲気と合わせて、旅行に出かけた気分を楽しんでいただけたらと思います。
+                            </p>
+                        </div>
+                    </div>
+                <!-- </div> -->
+            </section> 
+        </div>
+        <!-- //about -->
+
+        <!-- menu -->
+        <div class="js-trigger">
+            <section class="section-wrapper" id="menu">
+                <h2 class="section-title">Menu</h2>
+                <div class="section-inner-menu">
+                    <p class="content-price">
+                        商品価格（全品560円）
+                    </p>
+                    <p class="content-text">
+                        ジェラートは全てスペシャリストの手作り。<br class="br-tab">
+                        一度食べれば、特別な味であることははっきりわかります。<br class="br-tab">
+                        体に染み込んでいくような感覚は味わうと病みつきになります。<br class="br-tab">
+                        素材を厳選し、優しい味わいで仕上げています。<br class="br-tab">
+                        口の中でしっとりととろける数々の味の<span>ハーモニーをぜひお楽しみください。</span>
+                    </p>
+                </div>
+                <!-- item-list -->
+                <ul class="card-list">
+                    <li class="card-item">
+                        <div class="card-img-wrapper">
+                            <img src="./images/pct_yuzu.png" alt="ゆずイメージ">
+                        </div>
+                        <p class="flavor-title">Yuzu - ゆず</p>
+                        <p class="flavor-text">
+                            果皮のさわやかな香気と果汁の甘酸っぱさが程よく絡み合うちょっと大人向けのジェラート。
+                        </p>
+                    </li>
+                    <li class="card-item">
+                        <div class="card-img-wrapper">
+                            <img src="./images/pct_apple.png" alt="りんごイメージ">
+                        </div>
+                        <p class="flavor-title">Apple - りんご</p>
+                        <p class="flavor-text">
+                            紅玉りんごのコンポートのミルクジェラートにヨーグルトを合わせました。
+                            ふわっとした食感にマッチしたみずみずしい甘さ。
+                        </p>
+                    </li>
+                    <li class="card-item">
+                        <div class="card-img-wrapper">
+                            <img src="./images/pct_caramel.png" alt="キャラメルイメージ">
+                        </div>
+                        <p class="flavor-title">Caramel - キャラメル</p>
+                        <p class="flavor-text">
+                            モンドール地方の伝統的な菓子、スペキュロスを織り込みました。
+                            食感とキャラメル風味、シナモンの香りをお楽しみ下さい。</p>
+                    </li>
+                    <li class="card-item">
+                        <div class="card-img-wrapper">
+                            <img src="./images/pct_chocolate.png" alt="チョコイメージ">
+                        </div>
+                        <p class="flavor-title">Choco - チョコ</p>
+                        <p class="flavor-text">
+                            苦味の効いたガーナ産100%カカオマスのチョコレートを贅沢に使用。
+                            コクのあるまろやかな後味。</p>
+                    </li>
+                    <li class="card-item">
+                        <div class="card-img-wrapper">
+                            <img src="./images/pct_vanilla.png" alt="バニライメージ">
+                        </div>
+                        <p class="flavor-title">Vanilla - バニラ</p>
+                        <p class="flavor-text">
+                            トスカーナ地方で取れる最高級のバニラ。濃厚で芳醇な香りが一瞬で広がります。
+                        </p>
+                    </li>
+
+                    <li class="card-item">
+                        <div class="card-img-wrapper">
+                            <img src="./images/pct_mango.png" alt="マンゴーイメージ">
+                        </div>
+                        <p class="flavor-title">Mango - マンゴー</p>
+                        <p class="flavor-text">
+                            アッサム地方で取れる香り豊かな完熟マンゴーを利用した体に優しい味わい。
+                        </p>
+                    </li>
+                    <li class="card-item">
+                        <div class="card-img-wrapper">
+                            <img src="./images/pct_strawberry.png" alt="いちごイメージ">
+                        </div>
+                        <p class="flavor-title">Strawberry -いちご</p>
+                        <p class="flavor-text">
+                            イチゴの王様といわれ、特に甘味が強いと
+                            いわれる「あまおう」を贅沢に使った
+                            プレミアム・ジェラート・アイスクリーム。
+                        </p>
+                    </li>
+                    <li class="card-item">
+                        <div class="card-img-wrapper">
+                            <img src="./images/pct_pistacio.png" alt="ピスタチオイメージ">
+                        </div>
+                        <p class="flavor-title">Pisutatio - ピスタチオ</p>
+                        <p class="flavor-text">
+                            世界最高品質と言われるシチリア島ブロミディ産ピスタチオを使用。
+                            芳醇で濃厚な風味は高級感を漂わせる。
+                        </p>
+                    </li>
+                </ul>
+                <!-- //item-list -->
+            </section>
+        </div>
+        <!-- //menu -->
+
+        <!-- news -->
+        <div class="js-trigger">
+            <section class="section-wrapper" id="news">
+                <h2 class="section-title">News</h2>
+                
+                <div class="section-inner-news">
+                    <ul>
+                        <li class="card-news">
+                            <p class="date">20xx年xx月xx日</p>
+                            <a class="hover" href="#">
+                                <p>GW中（4/27〜5/6）の店舗営業日について</p>
+                            </a>
+                        </li>
+                        <li class="card-news">
+                            <p class="date">20xx年xx月xx日</p>
+                            <a class="hover" href="#">
+                                <p>【先着50名！】親子教室開催決定！
+                                    「親子でジェラートを作ってみよう」</p>
+                            </a>
+                        </li>
+                        <li class="card-news">
+                            <p class="date">20xx年xx月xx日</p>
+                            <a class="hover" href="#">
+                                <p>
+                                お店がテレビで紹介されました
+                                </p>
+                            </a>
+                        </li>
+                        <li class="card-news">
+                            <p class="date">20xx年xx月xx日</p>
+                            <a class="hover" href="#">
+                                <p>オープンを記念して、SNSシェアキャンペーン実施中！</p>
+                            </a>
+                        </li>
+                        <li class="card-news">
+                            <p class="date">20xx年xx月xx日</p>
+                            <a class="hover" href="#">
+                                <p>お店がオープンしました！
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="card-news">
+                            <p class="date">20xx年xx月xx日</p>
+                            <a class="hover" href="#">
+                                <p>
+                                プレオープンイベントを開催します！
+                                </p>
+                            </a>
+                        </li>
+                    </ul>        
+                </div>
+            </section>
+        </div>
+    <!-- //news -->
+
+        <!-- accsess -->
+        <div class="js-trigger">
+            <section class="section-wrapper" id="access">
+                <h2 class="section-title">Access</h2>
+                <div class="section-inner-map">
+                    <div class="map-outer">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1620.2618855990768!2d139.7009992040148!3d35.688726496238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cdac81f3bf5%3A0xd246d03c1aeda4f8!2zTkVXb01hbuaWsOWuvw!5e0!3m2!1sja!2sjp!4v1636639202815!5m2!1sja!2sjp"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                    <div class="map-text">
+                        <p class="shop-title">
+                            Gelateria MAKO
+                        </p>
+                        <div class="shop-address">
+                            <p>〒160-0022<br>
+                            東京都新宿区新宿4丁目1−6 NEWoMan 1F</p>
+                            <p>電話番号：03-5315-4803</p>
+                        </div>
+                            <div class="margin-p">
+                                営業時間：12:00 ～ 23:30
+                            </div>
+                        
+                    </div>
+                </div>
+            
+            <!-- //accsess -->
+            </section>
+        </div>
+    </main>
+<!-- //main -->
+
+<!-- footer -->
+<footer>
+    <div class="fotter-wrapper">
+        <p class="copy-right">&copy;Fruits Geratelia ALL RIGHTS RESERVED
+        </p>
+        <div class="sns-img">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+            </a>
+
+            <a href="#">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 8H6V12H9V24H14V12H17.642L18 8H14V6.333C14 5.378 14.192 5 15.115 5H18V0H14.192C10.596 0 9 1.583 9 4.615V8Z" fill="#6D6875"/>
+                </svg>
+            </a>
+            <a href="#">
+                <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 2.55705C23.117 2.94905 22.168 3.21305 21.172 3.33205C22.189 2.72305 22.97 1.75805 23.337 0.608047C22.386 1.17205 21.332 1.58205 20.21 1.80305C19.313 0.846047 18.032 0.248047 16.616 0.248047C13.437 0.248047 11.101 3.21405 11.819 6.29305C7.728 6.08805 4.1 4.12805 1.671 1.14905C0.381 3.36205 1.002 6.25705 3.194 7.72305C2.388 7.69705 1.628 7.47605 0.965 7.10705C0.911 9.38805 2.546 11.522 4.914 11.997C4.221 12.185 3.462 12.229 2.69 12.081C3.316 14.037 5.134 15.46 7.29 15.5C5.22 17.123 2.612 17.848 0 17.54C2.179 18.937 4.768 19.752 7.548 19.752C16.69 19.752 21.855 12.031 21.543 5.10605C22.505 4.41105 23.34 3.54405 24 2.55705V2.55705Z" fill="#6D6875"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</footer>
+<!-- //footer -->
+
+
+<!-- gsap読み込み -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/gsap@3.7.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/CustomEase.min.js"></script>
+
+<!-- jquery読み込み -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./css/main.js"></script>
+</body>
+</html>
