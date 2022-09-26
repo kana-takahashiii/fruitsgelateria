@@ -174,7 +174,7 @@ ul {
     color: #6D6875;
     font-size: clamp(1.4rem,5vw,10rem);
     /* font-size: 3rem; */
-    text-indent: -6rem;
+    /* text-indent: -6rem; */
 }
 
 
