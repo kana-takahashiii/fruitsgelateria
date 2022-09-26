@@ -166,11 +166,14 @@ ul {
 /* メインコピー*/
 .main-copy {
     position: absolute;
-    top: 307px;
-    left: 220px;
+    top: 50%;
+    left: 10vw;
+    /* top: 307px;
+    left: 220px; */
     z-index: 100;
-    color: #FFE8D6;
-    font-size: 3rem;
+    color: #6D6875;
+    font-size: clamp(1.4rem,5vw,10rem);
+    /* font-size: 3rem; */
     text-indent: -6rem;
 }
 
