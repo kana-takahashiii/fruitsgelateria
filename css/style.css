@@ -41,7 +41,6 @@ ul {
     margin-bottom: 60px;
 }
 .subheading {
-    /* font-size: 2.0rem; */
     font-size: clamp(1.5rem, 50vw, 2.0rem);
     letter-spacing: 0.05em;
     font-weight: 500;
@@ -85,7 +84,8 @@ ul {
 }
 
 .site-title a {
-    font-size: 3.8rem;
+    /* font-size: 3.8rem; */
+    font-size: clamp(1.8rem,4vw,3.8rem);
     color: #FFE8D6;
     
 }
@@ -839,7 +839,6 @@ margin-right: 17px;
         /* height: 60px; */
     }
     .site-title a{
-        font-size: 1.8rem;
         letter-spacing: 0.07em;
     }
     .site-title {
