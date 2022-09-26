@@ -16,8 +16,6 @@ jQuery(function($){$('.nav-item a').on('click', function(){
 
 
 
-
-
 // -------------
 // ★gsap★
 // about>Scrolltrigger
@@ -31,7 +29,7 @@ items.forEach((item) => {
         {
             y: 0,
             duration: 5,
-            ease: 'power2.out',
+            ease: 'power4.out',
 
             scrollTrigger: {
                 trigger:  item,
@@ -50,7 +48,7 @@ items.forEach((item) => {
 
 // -------------
 // ★gsap★
-// menu>img
+// menu>フレーバーメニューアイコン
 //ばらつきのある表現
 // -------------
 gsap.from('.card-img-wrapper img',
@@ -58,7 +56,7 @@ gsap.from('.card-img-wrapper img',
         y: -100,
         ease: "power3",
         duration: 1,
-        stagger: 0.2,
+        stagger: 0.01,
         scrollTrigger:{
             trigger: '#menu',
             start: "top",
