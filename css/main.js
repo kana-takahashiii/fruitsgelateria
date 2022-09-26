@@ -30,7 +30,7 @@ items.forEach((item) => {
         {
             y: 0,
             duration: 5,
-            ease: 'power4.out',
+            ease: 'power4.easeInOut,',
 
             scrollTrigger: {
                 trigger:  item,
@@ -115,15 +115,17 @@ targets.forEach( (target) => {
 
 
 
-// // main-copy
-// gsap.set(".main-copy", {
-//     opacity: 0,
-// }
-// );
-// var El = gsap.timeline();
-//     El.to(".main-copy span",{
-//         opacity: 1,
-//         duration: 
-//         stagger: 0.07,
-//         // ease: "Expo.easeOut"
-//     })
+// main-copy
+gsap.set(".main-copy span",
+    {
+        opacity: 0,
+    });
+
+var El = gsap.timeline();
+    El.to(".main-copy span",{
+        opacity: 1,
+        duration: 3,
+        stagger: 0.07,
+        y: "30%",
+        ease: "Expo.easeOut"
+    })
