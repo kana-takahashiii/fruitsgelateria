@@ -52,12 +52,12 @@ items.forEach((item) => {
 // menu>フレーバーメニューアイコン
 //ばらつきのある表現
 // -------------
-gsap.from('.card-img-wrapper img',
+gsap.from('.card-item',
     {   autoAlpha: 0,
         y: -100,
-        ease: "power3",
-        duration: 1,
-        stagger: 0.01,
+        ease: 'power4.easeInOut',
+        duration: 2,
+        stagger: 0.07,
         scrollTrigger:{
             trigger: '#menu',
             start: "top",
