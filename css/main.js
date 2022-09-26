@@ -26,6 +26,7 @@ items.forEach((item) => {
         {
             y: 10,
         },
+        
         {
             y: 0,
             duration: 5,
