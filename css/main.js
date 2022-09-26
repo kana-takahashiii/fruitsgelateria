@@ -71,7 +71,6 @@ gsap.from('.card-item',
 // -------------
 class SpanWrap {
     constructor(target) {
-    
         this.target = this.convertElement(target);
         this.nodes = [...this.target.childNodes];
         this.convert();
