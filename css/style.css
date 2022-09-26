@@ -703,16 +703,12 @@ margin-right: 17px;
         width: 100vw;
     }
 
-    /* Tab-メインコピー*/
+    /* Tab-メインコピー
     .main-copy {
         position: absolute;
-        left: calc( 20px + 6rem );
         top: 191px;
         z-index: 100;
-        color: #FFE8D6;
-        font-size: 3rem;
-        text-indent: -6rem;
-    }
+    } */
     .section-img-text {
         display: flex;
         align-items: center;
@@ -895,10 +891,6 @@ margin-right: 17px;
     }
     body.noscroll{
         overflow: hidden;
-    }
-    /* sp-maincopy */
-    .main-copy {
-    font-size: 1.8rem;
     }
     /* ハンバーガーメニューボタン */
     .burger-btn {
